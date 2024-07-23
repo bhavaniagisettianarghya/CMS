@@ -1,0 +1,100 @@
+.edit-shift-timings-aaa {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: -2%;
+  margin-left: 280px;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.edit-shift-timings-aaa h2 {
+  text-align: center;
+  color: #09cac1;
+  margin-bottom: 30px;
+}
+
+.fff-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.fff-form label {
+  display: flex;
+  width: 48%;
+  margin-bottom: 10px;
+  color: #19191a;
+}
+
+.checkbox-ccc {
+  margin-top: 20px;
+}
+
+.table1 {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.update-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.update-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.update-button:hover {
+  background-color: #45a049;
+}
+
+.reset-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.reset-button:hover {
+  background-color: #d32f2f;
+}
+
+input[type="text"],
+select[name="week"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.checkbox-ccc input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.button-bu {
+  margin-top: 20px;
+  text-align: center;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}  
+
+.error-message {
+  color: #ff0000;
+  font-size: 12px;
+  margin-top: 5px;
+}
